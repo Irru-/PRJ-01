@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Filmpje</title>
+		<link href="../css/style.css" rel="stylesheet" type="text/css">
+	</head>
+	
+	<body>
+		<div id="website">
+			<header>
+					<a href="../index.html"><img src="../img/header.jpg" /></a>
+				<div id="nav">
+					<ul>
+						<li><a href="../index.html" class="eerste">Home</a></li>
+						<li><a href="../films.html"  class="huidig">Films</a></li>
+						<li><a href="../acties.html">Acties</a></li>						
+						<li><a href="../contact.php">Contact</a></li>
+					</ul>
+				</div>
+			</header>
+			<div id="content">
+				<div id = "filmcon">	
+					<iframe width="560" height="315" src="http://www.youtube.com/embed/WqEiAdNLX0o" frameborder="0" allowfullscreen></iframe>
+					<h2>Ted</h2>
+					<p>
+					Ted vertelt het verhaal van John Bennett, een volwassen man die zijn leven deelt met een teddybeer: Ted. John mocht als kind een wens doen en zo kwam Ted tot leven. Sindsdien zijn de twee onafscheidelijk.
+					Ted is de nieuwe komedie van Seth McFarlane met o.a. Mark Wahlberg, Mila Kunis en Giovanni Ribisi. McFarlane is de schrijver van de populaire animatieserie Family Guy en staat bekend om zijn absurde en grensverleggende humor. Hij is de schrijver, regisseur én stem van Ted.
+					<br>
+					<br>
+					Genre: Comedy
+					</p>
+				</div>
+			</div>
+			<div id="sidebar">
+				<div id="topten"><p>Top 5 Films:
+					<ol>
+					<li><a href="ted.html">Ted</a></li>
+					<li><a href="possession.html">The Possession</a></li>
+					<li><a href="bourne.html">The Bourne Legacy</a></li>
+					<li><a href="dark-knight.html">The Dark Knight Rises</a></li>
+					<li><a href="savages.html">Savages</a></li>
+					</ol></p>
+				</div>		
+				<br>
+				<br>
+				<ol>
+				<form action="../nureserveren.php" method="post" >
+				<br />
+				<select name = "dt">
+				<option value = "1"> Vrijdag - 22:00</option>
+				<option value = "2"> Maandag - 22:00</option>
+				</select>
+				<input type="hidden" name = "movie" value = "Ted">
+				<input type="hidden" name = "test" value = "3">
+				<input type="submit" value="Nu reserveren!"/>
+				</form>
+				</ol>
+			</div>
+			<footer>
+				<p>&copy;2012 Filmpje.nl. Al rights reserved. - Realisation: TT</p>
+			</footer>
+		</div>
+	</body>
+</html>

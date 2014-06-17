@@ -1,0 +1,7 @@
+In het bijgeleverde filmpje wordt er vanuit gegaan dat de gebruiker al is ingelogd bij phpMyAdmin.
+
+--
+
+Als de database is geimporteerd, moeten de inloggegevens in 'config.php' nog worden veranderd.
+
+Open config.php in een texteditor, en verander aub de inloggegevens.

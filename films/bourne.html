@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Filmpje</title>
+		<link href="../css/style.css" rel="stylesheet" type="text/css">
+		<script language="javascript" type"text/javascript">
+			function popitup(url) 
+
+            {
+
+            newwindow=window.open(url,'name','height=500,width=450');
+
+            if (window.focus) {newwindow.focus()}
+
+            return false;
+
+            }
+		</script>
+
+	</head>
+	
+	<body>
+		<div id="website">
+			<header>
+					<a href="../index.html"><img src="../img/header.jpg" /></a>
+				<div id="nav">
+					<ul>
+						<li><a href="../index.html" class="eerste">Home</a></li>
+						<li><a href="../films.html"  class="huidig">Films</a></li>
+						<li><a href="../acties.html">Acties</a></li>						
+						<li><a href="../contact.php">Contact</a></li>
+					</ul>
+				</div>
+			</header>
+			<div id="content">
+				<div id="filmcon">
+					<iframe width="560" height="315" src="http://www.youtube.com/embed/bnsAU3iH6Sk" frameborder="0" allowfullscreen></iframe>
+					<h2>The Bourne Legacy</h2>
+					<p>
+					Tony Gilroy voegt een nieuw hoofdstuk toe aan de Bourne-trilogie van Robert Ludlum. In The Bourne Legacy wordt een nieuwe held (Jeremy Renner) geïntroduceerd. Hij komt terecht in levensbedreigende situaties, die een gevolg zijn van de gebeurtenissen uit de eerste drie films.
+
+Naast oude bekenden als Albert Finney, Joan Allen, David Strathairn en Scott Glenn zijn behalve nieuwkomer Jeremy Renner ook Rachel Weisz, Edward Norton, Stacy Keach en Oscar Isaac voor het eerst te zien in de Bourne reeks.
+					<br>
+					<br>
+					Genre: Thriller
+					</p>
+				</div>
+			</div>
+			<div id="sidebar">
+				<div id="topten"><p>Top 5 Films:
+					<ol>
+					<li><a href="ted.html">Ted</a></li>
+					<li><a href="possession.html">The Possession</a></li>
+					<li><a href="bourne.html">The Bourne Legacy</a></li>
+					<li><a href="dark-knight.html">The Dark Knight Rises</a></li>
+					<li><a href="savages.html">Savages</a></li>
+					</ol></p>
+				</div>			
+				<br>
+				<br>	
+				<ol>
+				<form action="../nureserveren.php" method="post" >
+				<br />
+				<select name = "dt">
+				<option value = "5"> Zondag - 15:00</option>
+				<option value = "6"> Zondag - 22:00</option>
+				</select>
+				<input type="hidden" name = "movie" value = "The Bourne Legacy">
+				<input type="hidden" name = "test" value = "3">
+				<input type="submit" value="Nu reserveren!"/>
+				</form>	
+				</ol>
+			</div>
+			<footer>
+				<p>&copy;2012 Filmpje.nl. Al rights reserved. - Realisation: TT</p>
+			</footer>
+		</div>
+	</body>
+</html>

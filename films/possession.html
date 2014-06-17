@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Filmpje</title>
+		<link href="../css/style.css" rel="stylesheet" type="text/css">
+	</head>
+	
+	<body>
+		<div id="website">
+			<header>
+					<a href="../index.html"><img src="../img/header.jpg" /></a>
+				<div id="nav">
+					<ul>
+						<li><a href="../index.html" class="eerste">Home</a></li>
+						<li><a href="../films.html"  class="huidig">Films</a></li>
+						<li><a href="../acties.html">Acties</a></li>						
+						<li><a href="../contact.php">Contact</a></li>
+					</ul>
+				</div>
+			</header>
+			<div id="content">
+				<div id="filmcon">
+					<iframe width="560" height="315" src="http://www.youtube.com/embed/0gBeG31fX40" frameborder="0" allowfullscreen></iframe>
+					<h2>The Possession</h2>
+					<p>
+					De onlangs gescheiden Clyde (Jeffrey Dean Morgan) merkt dat zijn jongste dochter zich steeds vreemder begint te gedragen na de aanschaf van een antiek houten kistje op een rommelmarkt.
+					<br>
+					Wanneer het gedrag van zijn dochter steeds zorgelijker begint te worden, besluit Clyde op onderzoek uit te gaan. Hij ontdekt dat het kistje is gebouwd om ‘een dibbuk’ in te bewaren, een kwade geest die bij het openen bezit neemt van zijn eigenaar. Samen met zijn ex-vrouw (Kyra Sedgwick) raakt hij verwikkeld in een donkere en levensbedreigende situatie. Een race tegen de klok volgt om het leven van Hannah te redden.
+					<br>
+					<br>
+					Genre: Thriller
+					</p>
+				</div>
+			</div>
+			<div id="sidebar">
+				<div id="topten"><p>Top 5 Films:
+					<ol>
+					<li><a href="ted.html">Ted</a></li>
+					<li><a href="possession.html">The Possession</a></li>
+					<li><a href="bourne.html">The Bourne Legacy</a></li>
+					<li><a href="dark-knight.html">The Dark Knight Rises</a></li>
+					<li><a href="savages.html">Savages</a></li>
+					</ol></p>
+				</div>	
+				<br>
+				<br>
+				<ol>
+				<form action="../nureserveren.php" method="post" >
+				<br />
+				<select name = "dt">
+				<option value = "15"> Donderdag - 22:00</option>
+				<option value = "16"> Zondag - 22:00</option>
+				</select>
+				<input type="hidden" name = "movie" value = "The Possession">
+				<input type="hidden" name = "test" value = "2">
+				<input type="submit" value="Nu reserveren!"/>
+				</form>
+				</ol>				
+			</div>
+			<footer>
+				<p>&copy;2012 Filmpje.nl. Al rights reserved. - Realisation: TT</p>
+			</footer>
+		</div>
+	</body>
+</html>
